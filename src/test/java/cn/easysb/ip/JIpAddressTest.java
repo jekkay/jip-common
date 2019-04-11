@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by hzhujiankang on 2018/11/29.
+ * Created by jekkay on 2018/11/29.
  */
 public class JIpAddressTest {
     private String ipList[] = {

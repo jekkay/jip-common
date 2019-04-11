@@ -8,7 +8,7 @@ import cn.easysb.ip.jip.iprange.JIPv6AddressRange;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * Created by hzhujiankang on 2018/11/29.
+ * Created by jekkay on 2018/11/29.
  */
 @Slf4j
 public class JIPAddressComparator {

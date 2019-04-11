@@ -3,7 +3,7 @@ package cn.easysb.ip.jip;
 import lombok.Getter;
 
 /**
- * Created by hzhujiankang on 2018/12/18.
+ * Created by jekkay on 2018/12/18.
  */
 public enum IPFormatType {
     SEGMENT_WITH_MASK_FIRST(1, "优先转化成带掩码的IP格式"), // 1.1.1.0/24

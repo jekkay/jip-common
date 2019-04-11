@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.Iterator;
 
 /**
- * Created by hzhujiankang on 2019/1/11.
+ * Created by jekkay on 2019/1/11.
  */
 @Slf4j
 public class JIPAddressIterator implements Iterator<JIPAddress> {

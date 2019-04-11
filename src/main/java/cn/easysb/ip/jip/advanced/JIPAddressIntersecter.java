@@ -20,7 +20,7 @@ import java.util.List;
  * intersect(1,2) = null
  * intersect([1,2], 3) = null
  * <p>
- * Created by hzhujiankang on 2018/12/14.
+ * Created by jekkay on 2018/12/14.
  */
 
 @Slf4j

@@ -19,7 +19,7 @@ import java.util.List;
 /**
  * 将IP聚合输出
  * 比如 1-3, 2, 4-6 ==> 1-6
- * Created by hzhujiankang on 2018/12/14.
+ * Created by jekkay on 2018/12/14.
  */
 @Slf4j
 public class JIPAddressCombiner {

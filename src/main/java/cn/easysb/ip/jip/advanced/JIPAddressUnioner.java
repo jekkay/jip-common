@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 并集
- * Created by hzhujiankang on 2018/12/18.
+ * Created by jekkay on 2018/12/18.
  */
 public class JIPAddressUnioner {
     public static List<JIPAddress> union(JIPAddress src, JIPAddress dst) {

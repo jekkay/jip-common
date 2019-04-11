@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 注意: 虽然实现Collection的接口，但是尽量用本JIPAddressSet声明的接口，部分用注释的方法写上了，比如clear(), size()
- * Created by hzhujiankang on 2018/11/30.
+ * Created by jekkay on 2018/11/30.
  */
 public interface JIPAddressSet extends Collection<JIPAddress> {
     /**

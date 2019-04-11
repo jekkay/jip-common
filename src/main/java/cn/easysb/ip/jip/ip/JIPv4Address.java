@@ -13,7 +13,7 @@ import java.util.Iterator;
 
 /**
  * 封装一层吧，以后内置换库也方便一点
- * Created by hzhujiankang on 2018/11/22.
+ * Created by jekkay on 2018/11/22.
  */
 @Data
 public class JIPv4Address implements JIPAddress {

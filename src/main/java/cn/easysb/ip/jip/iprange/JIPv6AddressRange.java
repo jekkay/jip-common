@@ -18,7 +18,7 @@ import java.util.Iterator;
 /**
  * * 封装一层吧，以后内置换库也方便一点
  * 临时： 内置实现暂时用com.googlecode.java-ipv6
- * Created by hzhujiankang on 2018/11/22.
+ * Created by jekkay on 2018/11/22.
  */
 
 @Slf4j

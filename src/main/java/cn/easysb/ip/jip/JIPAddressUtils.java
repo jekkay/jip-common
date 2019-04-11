@@ -16,7 +16,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by hzhujiankang on 2018/11/22.
+ * Created by jekkay on 2018/11/22.
  */
 @Slf4j
 public class JIPAddressUtils {

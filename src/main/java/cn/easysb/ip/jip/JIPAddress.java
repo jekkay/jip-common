@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 /**
  * IP地址的接口
- * Created by hzhujiankang on 2018/11/29.
+ * Created by jekkay on 2018/11/29.
  */
 
 public interface JIPAddress extends Comparable<JIPAddress> {

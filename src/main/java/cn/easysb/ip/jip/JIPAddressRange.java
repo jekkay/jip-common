@@ -3,7 +3,7 @@ package cn.easysb.ip.jip;
 
 /**
  * IP地址范围
- * Created by hzhujiankang on 2018/11/29.
+ * Created by jekkay on 2018/11/29.
  */
 
 public interface JIPAddressRange extends JIPAddress {

@@ -19,7 +19,7 @@ import java.util.List;
  * <p>
  * [1,2,3] - [2,4] = [1,3]
  * [1-10,20] - [3-4,20] = [1-2,5-10]
- * Created by hzhujiankang on 2018/12/14.
+ * Created by jekkay on 2018/12/14.
  */
 @Slf4j
 public class JIPAddressSubtracter {

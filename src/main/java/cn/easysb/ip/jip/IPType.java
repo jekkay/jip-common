@@ -3,7 +3,7 @@ package cn.easysb.ip.jip;
 import lombok.Getter;
 
 /**
- * Created by hzhujiankang on 2018/11/19.
+ * Created by jekkay on 2018/11/19.
  */
 public enum IPType {
     UNKNOWN(0, "未知"),

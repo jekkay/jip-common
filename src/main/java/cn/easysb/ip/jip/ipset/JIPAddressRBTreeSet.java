@@ -18,7 +18,7 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedDeque;
 
 /**
- * Created by hzhujiankang on 2018/11/30.
+ * Created by jekkay on 2018/11/30.
  */
 @Slf4j
 public class JIPAddressRBTreeSet extends RedBlackTree<JIPAddress> implements JIPAddressSet {

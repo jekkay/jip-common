@@ -6,7 +6,7 @@ import org.apache.commons.lang3.StringUtils;
 import java.util.List;
 
 /**
- * Created by hzhujiankang on 2018/12/4.
+ * Created by jekkay on 2018/12/4.
  */
 public class JIPAddressCheckUtils {
     // 检测ip地址是否有问题，碰到第一个错误就返回
