@@ -37,7 +37,7 @@
   <dependency>
 	    <groupId>com.github.jekkay</groupId>
 	    <artifactId>jip-common</artifactId>
-	    <version>v1.0.0</version>
+	    <version>1.0.0</version>
 	</dependency>
   ```
  
