@@ -19,29 +19,7 @@
   <p>通常，我们为了实现查找某个IP是属于哪个产品时，很多开发人员的做法就直接将IP段散列成单个IP，然后通过Map的方式一一对应起来，从而实现快速查找。这对于ip数量不是很多的情况下，没有太多的问题。倘若IP数量较大，或者说了到IPv6这个层面，那么这种方法简直就是要被开除的节奏了。为此，JIP模块基于线段树和红黑树的特性，不再散列IP段，实现了一种快速搜索查找的功能，可以大大节省内存和搜索时间。</p>
   
   * maven
-  
-<p>首先添加如repo到配置文件中</p>
-
-  ```
-  <repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-  </repositories>
-  ```
-  
-  <p>再加入以下依赖:</p>
-  
-  ```
-  <dependency>
-	    <groupId>com.github.jekkay</groupId>
-	    <artifactId>jip-common</artifactId>
-	    <version>1.0.0</version>
-	</dependency>
-  ```
- 
- * gradle等
+  * gradle等
  
 <p>请参考如下链接</p>
 
