@@ -185,6 +185,13 @@ JIPAddress find = jipAddressSet.findIp("1.1.1.23")
 IdcIpSegment findGroup = ((IdcIpSegment) find.getData())
 ```
 
+<p>以上两步操作可以一步到位，两种方法等价。</p>
+
+```
+IdcIpSegment findGroup = jipAddressSet.findIpData("1.1.1.23", IdcIpSegment.class);
+```
+
+
 <p>是不是很简单？！</p>
  
 1. 注意事项①： 如果有多个满足条件的话，findIp只返回满足条件的第一个。
