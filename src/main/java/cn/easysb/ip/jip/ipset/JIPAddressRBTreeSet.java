@@ -105,6 +105,15 @@ public class JIPAddressRBTreeSet extends RedBlackTree<JIPAddress> implements JIP
     }
 
     @Override
+    public <T> T findIpData(String ip, Class<T> tClass) {
+        JIPAddress find = findIp(ip);
+        if (find == null || find.getData() == null) {
+            return null;
+        }
+        return tClass.isInstance(find.getData()) ? tClass.cast(find.getData()) : null;
+    }
+
+    @Override
     public JIPAddress insertIp(JIPAddress jipAddress) {
         RedBlackNode<JIPAddress> node = super.insert(jipAddress);
         return node != null ? node.getKey() : null;

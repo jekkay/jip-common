@@ -19,6 +19,11 @@ public interface JIPAddressSet extends Collection<JIPAddress> {
     JIPAddress findIp(String ip);
 
     /**
+     * 获取IP对应外带数据
+     */
+    <T> T findIpData(String ip, Class<T> tClass);
+
+    /**
      * 插入节点
      */
     JIPAddress insertIp(JIPAddress jipAddress);
